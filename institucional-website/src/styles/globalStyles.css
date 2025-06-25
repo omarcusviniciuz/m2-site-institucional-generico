@@ -1,0 +1,130 @@
+/* ===================== */
+/*     GLOBAL STYLES     */
+/* ===================== */
+
+:root {
+  /* Brand Colors */
+  --brand1: #4C6EF5;
+  --brand2: #364FC7;
+
+  /* Gray Colors */
+  --gray1: #191C1F;
+  --gray2: #212529;
+  --gray3: #343A40;
+  --gray4: #ADB5BD;
+  --gray5: #CED4DA;
+  --gray6: #EDF2FF;
+  --gray7: #F8F9FA;
+
+  /* Font Family */
+  --font-family: 'Inter', sans-serif;
+
+  /* Titles */
+  --title1-size: 52px;
+  --title2-size: 40px;
+  --title3-size: 32px;
+  --title-line-height: 140%;
+  --title3-line-height: 160%;
+  --title-weight: 600;
+
+  /* Text */
+  --text1-size: 20px;
+  --text2-size: 18px;
+  --text3-size: 16px;
+  --text-line-height: 150%;
+  --text-weight: 400;
+}
+
+/* ========== Typography ========== */
+body {
+  font-family: var(--font-family);
+  color: var(--gray4);
+  background-color: var(--gray1);
+}
+
+h1 {
+  font-size: var(--title1-size);
+  line-height: var(--title-line-height);
+  font-weight: var(--title-weight);
+}
+
+h2 {
+  font-size: var(--title2-size);
+  line-height: var(--title-line-height);
+  font-weight: var(--title-weight);
+}
+
+h3 {
+  font-size: var(--title3-size);
+  line-height: var(--title3-line-height);
+  font-weight: var(--title-weight);
+}
+
+p.text1 {
+  font-size: var(--text1-size);
+  line-height: var(--text-line-height);
+  font-weight: var(--text-weight);
+}
+
+p.text2 {
+  font-size: var(--text2-size);
+  line-height: var(--text-line-height);
+  font-weight: var(--text-weight);
+}
+
+p.text3, p.text4 {
+  font-size: var(--text3-size);
+  line-height: var(--text-line-height);
+  font-weight: var(--text-weight);
+}
+
+/* ========== Buttons ========== */
+.button-default {
+  background-color: var(--brand1);
+  color: var(--gray7);
+}
+
+.button-default:hover {
+  background-color: var(--brand2);
+}
+
+.button-outline {
+  background-color: var(--gray1);
+  color: var(--gray7);
+  border: 1px solid var(--gray7);
+}
+
+/* ========== Inputs ========== */
+.input-default {
+  background-color: var(--gray1);
+  color: var(--gray4);
+}
+
+.input-valid {
+  background-color: var(--gray3);
+  color: var(--gray4);
+}
+
+.input-focus {
+  background-color: var(--gray2);
+  color: var(--gray4);
+}
+
+/* ========== Modal ========== */
+.modal-default {
+  background-color: var(--gray1);
+  color: var(--gray4);
+  font-size: var(--text1-size);
+  line-height: var(--text-line-height);
+  font-weight: var(--text-weight);
+}
+
+.modal-default button {
+  background-color: var(--brand1);
+  color: var(--gray7);
+}
+
+.modal-default input {
+  background-color: var(--gray1);
+  color: var(--gray4);
+}
