@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+
+body p{
+    color: var(--gray4);
+}
+
+body h2,h3{
+    color: white;
+}
+
+body button{
+padding: 10px 20px;
+}
+
+header{
+    background-color: var(--gray1);
+    padding: 20px;
+    border-bottom: 3px solid var(--brand2);
+}
+header button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.banner{
+    padding: 100px;
+    background-color: var(--gray2);
+    text-align: center;
+}
+.banner h1{
+    color: white;
+}
+.banner p{
+    margin-top: 20px;
+}
+.banner button{
+    margin-top: 20px;
+    background-color: var(--brand1);
+    color: white;
+    border: none;
+
+}
+.banner button:hover{
+    background-color: var(--brand2);
+}
