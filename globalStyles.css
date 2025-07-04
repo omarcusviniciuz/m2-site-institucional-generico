@@ -1,0 +1,37 @@
+/* ===================== */
+/*     GLOBAL STYLES     */
+/* ===================== */
+
+:root {
+  /* Brand Colors */
+  --brand1: #4C6EF5;
+  --brand2: #364FC7;
+
+  /* Gray Colors */
+  --gray1: #191C1F;
+  --gray2: #212529;
+  --gray3: #343A40;
+  --gray4: #ADB5BD;
+  --gray5: #CED4DA;
+  --gray6: #EDF2FF;
+  --gray7: #F8F9FA;
+
+  /* Font Family */
+  --font-family: 'Inter', sans-serif;
+
+  /* Titles */
+  --title1-size: 52px;
+  --title2-size: 40px;
+  --title3-size: 32px;
+  --title-line-height: 140%;
+  --title3-line-height: 160%;
+  --title-weight: 600;
+
+  /* Text */
+  --text1-size: 20px;
+  --text2-size: 18px;
+  --text3-size: 16px;
+  --text-line-height: 150%;
+  --text-weight: 400;
+}
+
