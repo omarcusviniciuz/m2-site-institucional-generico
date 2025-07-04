@@ -1,0 +1,138 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body h3 {
+  color: #f8f9fa;
+}
+
+body h2 {
+  color: #f8f9fa;
+}
+body p {
+  color: #adb5bd;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1, 728px;
+  height: 100px;
+  background-color: #191c1f;
+}
+
+header button {
+  width: 266px;
+  height: 60px;
+  border: 1px solid #f8f9fa;
+  background-color: #191c1f;
+  color: white;
+}
+
+.banner {
+  width: 1, 728px;
+  height: 781px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-color: #212529;
+}
+
+.banner h1 {
+  color: #f8f9fa;
+  font-size: 52px;
+  font-weight: 600px;
+}
+
+.banner p {
+  color: #adb5bd;
+  font-size: 16px;
+  font-weight: 400px;
+}
+
+.banner button {
+  width: 142px;
+  height: 60px;
+  border: 1px;
+  background-color: #4c6ef5;
+  color: white;
+}
+
+.banner button:hover {
+  background-color: #364fc7;
+}
+
+.about {
+  display: flex;
+  width: 1, 728px;
+  height: 284px;
+  background-color: #191c1f;
+  color: #f8f9fa;
+}
+
+.about h2 {
+  width: 620px;
+  height: 46px;
+  font-size: 40px;
+  line-height: 160%;
+}
+
+.about p {
+  width: 580px;
+  height: 120px;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.FAQ {
+  background-color: #212529;
+  width: 1, 728px;
+  height: 1, 132px;
+}
+.left-side {
+  width: 620px;
+  height: 280px;
+  color: #f8f9fa;
+  text-align: center;
+}
+.left-side h2 {
+  width: 533px;
+  height: 64px;
+  font-size: 40px;
+  line-height: 160%;
+}
+.left-side p {
+  width: 533px;
+  height: 64px;
+  font-size: 20px;
+  line-height: 150%;
+}
+.left-side button {
+  width: 266px;
+  height: 60px;
+  border: 1px;
+  background-color: #4c6ef5;
+  color: white;
+}
+.left-side button:hover {
+  background-color: #364fc7;
+}
+.right-side {
+  width: 583px;
+  height: 968px;
+}
+.right-side h3 {
+  width: 376px;
+  height: 51px;
+  font-size: 32px;
+  line-height: 160%;
+}
+.left-sidee{
+  width: 1,728px;
+  height: 1,387px;
+  background-color: #212529;
+}
