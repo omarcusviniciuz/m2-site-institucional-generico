@@ -226,9 +226,18 @@ img{
 
 }
 #meuModal {
+
   display: none;
-  /* outros estilos do modal */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.6); /* fundo escuro semi-transparente */
+
 }
+
 .modal-content {
  
 position: fixed;
