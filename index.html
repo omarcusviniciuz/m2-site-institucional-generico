@@ -11,7 +11,7 @@
     <!-- ====== Header ====== -->
     <header>
            <img src="image.png" alt="img-logo" />
-        <button class="">Entrar para próxima turma</button>
+        <button class="abrirModal">Entrar para próxima turma</button>
     </header>
     <main>
       <!-- ====== Section Banner ====== -->
@@ -56,11 +56,10 @@
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s
               </p>
-              <button>Entrar para próxima turma</button>
+              <button class="abrirModal">Entrar para próxima turma</button>
             </div>
           </div>
           <!-- RIGHT SIDE -->
-          
           <ul class="right-side">
             <li>
               <h3>Quais matérias vou pagar?</h3>
@@ -199,6 +198,25 @@
     </footer>
 
     <!-- ====== Modal ====== -->
-    <dialog></dialog>
+          <div id="meuModal" class="modal">
+            <div class="modal-content">
+              <div class="align-modal">
+                      <h2>Cadastro</h2>
+              <span class="close" id="fecharModal">&times;</span>
+              </div>
+        
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting 
+                    industry. Lorem Ipsum has been the industry's standard dummy text 
+                    ever since the 1500s, when an unknown printer took a galley of type
+                     and scrambled it to make a type specimen book. It has survived not 
+                     only fiv</p>
+                     <div class="formulario-modal">
+                          <input type="email" name="" id=""placeholder="Digite seu e-mail" />
+                     <button>Entre para proxima turma</button>
+                     </div>
+                 
+            </div>
+          </div>
+          <script src="script.js"></script>
   </body>
 </html>
